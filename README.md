@@ -1,44 +1,59 @@
-### Google Play Gift Cards - Code Generator
+### Google Play Hediye Kartları - Kod Üretici
 
-#### About
+#### Hakkında
+
 ---
-**CPA Landing Pages** - We find and deliver only the best landing pages that you can use to earn money through "Cost Per Action" marketing. All files within the landing page's will be minified (images, scripts, styles), but you can always beautify them if you need to modify or improve some bits.
 
-> You can use [Minify Code](http://minifycode.com/) to beautify and minify HTML, CSS, JS.
+**CPA Landing Pages** – "Cost Per Action" pazarlamasıyla para kazanmanız için yalnızca en iyi açılış sayfalarını bulup sizlere sunuyoruz. Açılış sayfasındaki tüm dosyalar küçültülmüş (minify) olacaktır (görseller, scriptler, stiller), ancak düzenlemek veya geliştirmek isterseniz bunları her zaman güzelleştirebilirsiniz.
 
-#### Preview
+> HTML, CSS, JS dosyalarını güzelleştirmek veya yeniden küçültmek için [Minify Code](http://minifycode.com/) kullanabilirsiniz.
+
+#### Önizleme
+
 ---
+
 ![Landing Page Preview](https://github.com/cpa-landing-pages/google-play-cards/blob/master/preview.png)
 
-#### Download
+#### İndir
+
 ---
+
 [<img src="http://svgshare.com/i/28_.svg" width="40%" alt="Download" />](https://github.com/cpa-landing-pages/google-play-cards/archive/master.zip)
 
-#### How to use
+#### Nasıl Kullanılır
+
 ---
 
-##### Before you begin
-- You will need an code editor of your choice. If you don't have one, we suggest downloading one of those:
-[Notepad++](https://notepad-plus-plus.org/download/v7.4.2.html)
-[Sublime Text](https://www.sublimetext.com/3)
+##### Başlamadan önce
 
-> Step 1
-- Download the landing page with button above.
+* Bir kod düzenleyicisine ihtiyacınız olacak. Eğer yoksa, şu düzenleyicilerden birini öneriyoruz:
+  [Notepad++](https://notepad-plus-plus.org/download/v7.4.2.html)
+  [Sublime Text](https://www.sublimetext.com/3)
 
-> Step 2
-- Extract the files and open the folder that appears after extraction.
+> Adım 1
 
-> Step 3
-- To change main site context, open `generator.php` and you can make any changes in there.
+* Yukarıdaki butonla açılış sayfasını indirin.
 
-> Step 4
-- To add content locker, go to your favourite CPA Network and follow their instructions. In every case, you will need to include one `<script>` in the `<head>` of the `generator.php` page and then attach the content locker call to an button. To find a button where you should add the content locker call, in `generator.php`, search for `locker` and inside of it you will see a function that wraps `alert('demo')` which outputs `demo` as a message on click of the button. Simply swap the `alert('demo')` with your content locker call (e.g. `call_locker()`)
+> Adım 2
 
-> Step 5 (optional)
-- To change CSS, open `css/main.min.css` and beautify the file. You can Google for "CSS Beautify" or you can use the one that we mentioned for any file type. Make sure to minify the file after you're done, for faster page load.
+* Dosyaları çıkarın ve çıkan klasörü açın.
 
-> Step 6 (optional)
-- To change JS, open `js/script.min.js` and beautify the file. You can Google for "JS Beautify" or you can use the one that we mentioned for any file type. Make sure to minify the file after you're done, for faster page load.
+> Adım 3
 
-> Step 7 (optional)
-- If landing page contains "console" that shows output messages of an "generator", you can edit them in `generator.php` by searching for `consoleMessages`.
+* Ana site içeriğini değiştirmek için `generator.php` dosyasını açın ve istediğiniz değişiklikleri yapın.
+
+> Adım 4
+
+* İçerik kilidi (content locker) eklemek için favori CPA ağınıza gidin ve talimatlarını izleyin. Her durumda `<head>` etiketi içine eklemeniz gereken bir `<script>` olacaktır ve ardından içerik kilidi çağrısını bir butona eklemeniz gerekir. `generator.php` içinde `locker` kelimesini arayın; içinde `alert('demo')` içeren bir fonksiyon göreceksiniz. Bu fonksiyon butona tıklandığında `demo` mesajını gösterir. Sadece `alert('demo')` bölümünü kendi içerik kilidi çağrınızla değiştirin (örneğin: `call_locker()`).
+
+> Adım 5 (isteğe bağlı)
+
+* CSS'i değiştirmek için `css/main.min.css` dosyasını açın ve güzelleştirin. "CSS Beautify" diye aratabilir veya bahsettiğimiz araçları kullanabilirsiniz. İşiniz bittiğinde dosyayı tekrar küçültmeyi unutmayın; bu daha hızlı sayfa yüklenmesini sağlar.
+
+> Adım 6 (isteğe bağlı)
+
+* JS'i değiştirmek için `js/script.min.js` dosyasını açın ve güzelleştirin. "JS Beautify" diye aratabilir veya bahsettiğimiz araçları kullanabilirsiniz. Düzenlemeler tamamlanınca dosyayı yeniden küçültün.
+
+> Adım 7 (isteğe bağlı)
+
+* Açılış sayfası bir "konsol" içeriyorsa ve bu konsol "üretici" mesajlarını gösteriyorsa, `generator.php` dosyasında `consoleMessages` araması yaparak bu mesajları düzenleyebilirsiniz.
